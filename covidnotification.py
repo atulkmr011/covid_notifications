@@ -36,4 +36,4 @@ if __name__ == "__main__":
                 nText = f"State : {datalist[1]} Total Cases : {datalist[5]}\nActive : {datalist[2]}\nCured : {datalist[3]}\nDeaths : {datalist[4]}"
                 notifyMe(nTitle,nText)
                 time.sleep(2)
-        time.sleep(3600)        
+        time.sleep(3600)  #change as required 60 value for 1 min      
