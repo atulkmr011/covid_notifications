@@ -7,7 +7,7 @@ def notifyMe(title, message):
     notification.notify(
         title = title,
         message = message,
-        app_icon = "C:\\Users\\Atul\\Desktop\\progs\\covidnoti\\icon.ico",
+        app_icon = "icon.ico",
         timeout = 10
     )
 
